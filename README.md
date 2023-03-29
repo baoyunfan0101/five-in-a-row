@@ -1,10 +1,10 @@
 # five-in-a-row
 
 ## 文件说明
-WindowsProject/AI-arith.cpp //核心算法源文件  
-WindowsProject/AI-arith.h   //核心算法头文件  
-WindowsProject/main.cpp     //UI界面及主函数源文件  
-five-in-a-row.exe           //可执行文件：五子棋小游戏
+WindowsProject/AI-arith.cpp // 核心算法源文件  
+WindowsProject/AI-arith.h   // 核心算法头文件  
+WindowsProject/main.cpp     // UI界面及主函数源文件  
+five-in-a-row.exe           // 可执行文件：五子棋小游戏
 
 ## 运行环境
 Windows Desktop Application  
