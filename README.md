@@ -35,7 +35,7 @@ __极小极大算法__（minimax algorithm）是对抗搜索的一类经典算�
 - 考察对手可能的行动：对于计算机的每种落子方案，考察对手在下一步可能的落子位置。
 这里计算机应当假设其对手是“聪明”的，也就是说，他总是能找出对他自身最有利的落子位置。通过上述过程便能够建立极小极大算法的搜索树，如下图中的黑色部分所示。
 
-![image](https://github.com/baoyunfan0101/HornClauseApodosis/blob/main/static/figure.png)
+![image](https://github.com/baoyunfan0101/five-in-a-row/blob/main/static/figure.png)
 
 根据上面的分析，这里需要定义一个函数h(x)，用于评价棋盘上各棋子呈现出的某一形态对计算机而言的优劣程度，称之为评价函数。h(x)越大，则说明此时的形势对计算机越有利，反之则不利。此时对于参加博弈的两个Agent，试图使h(x)尽可能大的一方通常称为MAX，另一方称为MIN。关于评价函数如何定义和优化，在后文的“评价函数的设计”中会进行详细分析。
 
